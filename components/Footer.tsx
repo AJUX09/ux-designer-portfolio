@@ -1,9 +1,12 @@
+import { DottedSurface } from "@/components/ui/dotted-surface";
+
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer relative overflow-hidden">
+      <DottedSurface className="size-full" />
 
       {/* ── Top content ── */}
-      <div className="footer-inner">
+      <div className="footer-inner relative z-10">
         <div className="footer-top-row">
 
           {/* Left — Navigate */}
@@ -48,7 +51,7 @@ export default function Footer() {
       </div>
 
       {/* ── Giant brand bleed — intentionally overflows footer bottom ── */}
-      <div className="footer-brand-bleed" aria-hidden="true">JESPAR</div>
+      <div className="footer-brand-bleed relative z-10 pointer-events-none" aria-hidden="true">JESPAR</div>
 
     </footer>
   )
