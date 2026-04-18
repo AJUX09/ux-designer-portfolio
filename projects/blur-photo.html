@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blur Photo — Case Study</title>
+  <link rel="stylesheet" href="../css/project.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">
+      <span class="logo-dot"></span>
+      <span>Jespar</span>
+    </a>
+    <a href="../index.html#projects" class="nav-back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      Back to Work
+    </a>
+  </nav>
+
+  <!-- HERO COVER -->
+  <section class="proj-hero">
+    <div class="proj-cover">
+      <img src="../images/project-1.jpg" alt="Blur Photo Cover" class="proj-cover-img"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="proj-cover-placeholder" style="display:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      </div>
+    </div>
+    <div class="proj-cover-text">
+      <div class="proj-category">Mobile App</div>
+      <h1 class="proj-title">Blur Photo</h1>
+      <div class="proj-tags">
+        <span class="proj-tag">UI Design</span>
+        <span class="proj-tag">Mobile App</span>
+        <span class="proj-tag">AI Tool</span>
+        <span class="proj-tag">2024</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="proj-stats reveal">
+    <div class="proj-stat">
+      <div class="proj-stat-label">Role</div>
+      <div class="proj-stat-value">UI/UX Designer</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Platform</div>
+      <div class="proj-stat-value">iOS &amp; Android</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Timeline</div>
+      <div class="proj-stat-value">3 Months</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Tools</div>
+      <div class="proj-stat-value">Figma · Maze</div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="proj-body">
+
+    <!-- OVERVIEW -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Overview</div>
+      <h2>Precision blur, without the complexity of professional software.</h2>
+      <p>Blur Photo gives photographers and casual users alike the power to apply cinematic depth-of-field blur to any photo — directly from their phone. No DSLR, no Photoshop, no subscription. Just point, tap, and blur.</p>
+      <p>The design challenge was making a technically complex AI masking engine feel as simple as drawing with your finger.</p>
+    </div>
+
+    <div class="proj-img-block reveal">
+      <img src="../images/project-1.jpg" alt="Blur Photo App Screens"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="proj-img-placeholder" style="display:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <span>App screens preview</span>
+      </div>
+      <div class="proj-img-caption">Blur Photo — Core editing experience across key screens</div>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Problem Statement</div>
+      <h2>Great blur is locked behind expensive gear and steep learning curves.</h2>
+      <p>Portrait mode on smartphones democratised bokeh to a degree — but it only works during capture, only on compatible devices, and only for portraits. Once a photo is taken, there's no going back without professional desktop software.</p>
+      <p>Users were turning to complex apps like Photoshop or VSCO with steep learning curves, just to blur a background. The market needed a tool that was <em>purpose-built</em> for one thing, and did it beautifully.</p>
+
+      <div class="proj-quote">
+        <p>"I just want my subject to pop. Why do I need a degree in Photoshop just to blur the background of one photo?"</p>
+      </div>
+    </div>
+
+    <!-- RESEARCH -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Research &amp; Discovery</div>
+      <h2>Understanding how people actually take and edit photos.</h2>
+      <p>We shadowed 18 participants through their real photo-editing workflows — from capture to posting — over two weeks. The insights reshaped our initial assumptions about what users actually needed.</p>
+
+      <div class="proj-features">
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+          </div>
+          <h4>Post-Capture Need</h4>
+          <p>94% of users wanted to blur existing photos from their library, not just photos taken in the moment.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Masking Anxiety</h4>
+          <p>Users feared making irreversible mistakes. Non-destructive editing and unlimited undo were non-negotiables.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          </div>
+          <h4>Blur Type Confusion</h4>
+          <p>Users didn't know the difference between Gaussian, lens, and tilt-shift blur. They only cared about the visual result.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"/><line x1="7" y1="2" x2="7" y2="22"/><line x1="17" y1="2" x2="17" y2="22"/><line x1="2" y1="12" x2="22" y2="12"/><line x1="2" y1="7" x2="7" y2="7"/><line x1="2" y1="17" x2="7" y2="17"/><line x1="17" y1="17" x2="22" y2="17"/><line x1="17" y1="7" x2="22" y2="7"/></svg>
+          </div>
+          <h4>Subject Detection</h4>
+          <p>Auto subject detection was expected by 87% of users — manual masking was seen as a fallback, not the primary path.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-divider"></div>
+
+    <!-- SOLUTION -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">The Solution</div>
+      <h2>Tap your subject. Everything else is automatic.</h2>
+      <p>The entire app is built around a single core gesture: <strong>tap the subject you want in focus.</strong> The AI instantly detects and masks that subject, blurs everything else, and shows you the result — all in under a second.</p>
+      <p>Users can then refine using a brush tool, adjust blur intensity with a slider, and switch between blur styles using visual previews rather than technical labels. Every decision reduces cognitive load.</p>
+
+      <div class="proj-quote">
+        <p>"The app should do the thinking so the user can focus on the feeling. One tap to great should always be the fastest path."</p>
+      </div>
+    </div>
+
+    <div class="proj-img-block reveal">
+      <div class="proj-img-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <span>User flow &amp; interaction design</span>
+      </div>
+      <div class="proj-img-caption">Core user flow — from photo selection to export</div>
+    </div>
+
+    <!-- KEY FEATURES -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Key Features</div>
+      <h2>Built for humans, not photographers.</h2>
+
+      <div class="proj-features">
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h4>AI Subject Detection</h4>
+          <p>One tap automatically isolates any subject — people, objects, pets — with pixel-accurate masking powered by on-device ML.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3h7v7H3zM14 3h7v7h-7zM14 14h7v7h-7zM3 14h7v7H3z"/></svg>
+          </div>
+          <h4>Blur Style Picker</h4>
+          <p>Visual previews for cinematic, tilt-shift, and radial blur — no technical terminology, just results you can see.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 .49-3.51"/></svg>
+          </div>
+          <h4>Non-Destructive Editing</h4>
+          <p>Every edit is reversible. Unlimited undo, original always preserved — users edit with confidence, not fear.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+          <h4>Instant Export</h4>
+          <p>One-tap export to camera roll, Stories, or sharing sheet — at full resolution, with no watermarks.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-divider"></div>
+
+    <!-- OUTCOME -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Outcome &amp; Impact</div>
+      <h2>Simple design, measurable results.</h2>
+      <p>The focus on reducing the path to a great result — from tap to export — paid off in every key metric. Users completed their first edit faster than any comparable app in the category.</p>
+
+      <div class="proj-outcomes">
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">1 tap</span>
+          <p>Average interactions to complete a background blur</p>
+        </div>
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">92%</span>
+          <p>Task completion rate in usability testing</p>
+        </div>
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">4.7★</span>
+          <p>App Store rating within 30 days of launch</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- REFLECTION -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Reflection</div>
+      <h2>Simplicity is a design decision, not a limitation.</h2>
+      <p>The hardest part of this project wasn't adding features — it was deciding what not to build. Every stakeholder had ideas. The AI team wanted to expose more controls. Marketing wanted more blur styles. The right call was always to ask: <em>"Does this serve the user's primary goal?"</em></p>
+      <p>The version that shipped was significantly simpler than our original scope — and significantly better for it.</p>
+    </div>
+
+  </div>
+
+  <!-- MORE PROJECTS -->
+  <div class="proj-more">
+    <div class="proj-more-label">More Projects</div>
+    <div class="proj-more-grid">
+
+      <a href="beauty-editor.html" class="mini-card">
+        <div class="mini-card-thumb">
+          <img src="../images/project-1.jpg" alt="Beauty Editor"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+          <div class="mini-card-thumb-placeholder" style="display:none"></div>
+        </div>
+        <div class="mini-card-footer">
+          <div>
+            <span class="mini-card-category">iOS &amp; Android</span>
+            <div class="mini-card-title">Beauty Editor</div>
+          </div>
+          <div class="mini-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+        </div>
+        <div class="mini-card-line"></div>
+      </a>
+
+      <a href="unblur.html" class="mini-card">
+        <div class="mini-card-thumb">
+          <img src="../images/project-2.jpg" alt="Unblur"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+          <div class="mini-card-thumb-placeholder" style="display:none"></div>
+        </div>
+        <div class="mini-card-footer">
+          <div>
+            <span class="mini-card-category">Web App</span>
+            <div class="mini-card-title">Unblur</div>
+          </div>
+          <div class="mini-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+        </div>
+        <div class="mini-card-line"></div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="proj-footer">
+    <span>© 2025 Jespar. All rights reserved.</span>
+    <a href="../index.html">← Back to Portfolio</a>
+  </footer>
+
+  <script>
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 60);
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
