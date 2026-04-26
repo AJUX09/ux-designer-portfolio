@@ -6,9 +6,9 @@ import { GlowCard } from '@/components/ui/spotlight-card'
 const apps = [
   {
     name: 'Time Warp Scan App',
-    tagline: 'iOS & Android',
+    tagline: 'iOS',
     desc: 'AI-powered beauty retouching with real-time filters, skin smoothing, and makeup simulation — designed for creators and enthusiasts.',
-    stats: [{ label: 'Downloads', value: '500K+' }, { label: 'Rating', value: '4.8★' }, { label: 'Platform', value: 'iOS & Android' }],
+    stats: [{ label: 'Downloads', value: '500K+' }, { label: 'Rating', value: '4.8★' }, { label: 'Platform', value: 'iOS' }],
     playstore: null,
     appstore: 'https://apps.apple.com/us/app/time-warp-scan-app/id6450537320',
     icon: '/images/apps/time-warp.png',
@@ -30,7 +30,7 @@ const apps = [
   },
   {
     name: 'Unblur',
-    tagline: 'Web & Mobile',
+    tagline: 'iOS',
     desc: 'AI super-resolution web app that restores sharpness to blurry photos using deep-learning upscaling — designed for one-tap simplicity.',
     stats: [{ label: 'Users', value: '50K+' }, { label: 'Rating', value: '4.7★' }, { label: 'Platform', value: 'iOS' }],
     playstore: null,
@@ -66,7 +66,7 @@ const apps = [
   },
   {
     name: 'Colorpop',
-    tagline: 'Web & Mobile',
+    tagline: 'iOS',
     desc: 'AI-driven photo colorization and color grading tool — restore old black-and-white photos or apply cinematic color styles with a single tap.',
     stats: [{ label: 'Users', value: '80K+' }, { label: 'Rating', value: '4.8★' }, { label: 'Platform', value: 'iOS' }],
     playstore: null,
