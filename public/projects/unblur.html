@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unblur — Case Study</title>
+  <link rel="stylesheet" href="../css/project.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="../index.html" class="nav-logo">
+      <span class="logo-dot"></span>
+      <span>Jespar</span>
+    </a>
+    <a href="../index.html#projects" class="nav-back">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+      Back to Work
+    </a>
+  </nav>
+
+  <!-- HERO COVER -->
+  <section class="proj-hero">
+    <div class="proj-cover">
+      <img src="../images/project-2.jpg" alt="Unblur Cover" class="proj-cover-img"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="proj-cover-placeholder" style="display:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      </div>
+    </div>
+    <div class="proj-cover-text">
+      <div class="proj-category">Web App</div>
+      <h1 class="proj-title">Unblur</h1>
+      <div class="proj-tags">
+        <span class="proj-tag">UX Research</span>
+        <span class="proj-tag">Web App</span>
+        <span class="proj-tag">ML / AI</span>
+        <span class="proj-tag">2024</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="proj-stats reveal">
+    <div class="proj-stat">
+      <div class="proj-stat-label">Role</div>
+      <div class="proj-stat-value">UI/UX Designer</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Platform</div>
+      <div class="proj-stat-value">Web (Desktop + Mobile)</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Timeline</div>
+      <div class="proj-stat-value">5 Months</div>
+    </div>
+    <div class="proj-stat">
+      <div class="proj-stat-label">Tools</div>
+      <div class="proj-stat-value">Figma · Framer</div>
+    </div>
+  </div>
+
+  <!-- BODY -->
+  <div class="proj-body">
+
+    <!-- OVERVIEW -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Overview</div>
+      <h2>Rescuing the photos you thought were lost forever.</h2>
+      <p>Unblur is a web-based AI image enhancement tool that restores sharpness, detail, and clarity to blurry, out-of-focus, or low-resolution photos. It uses deep-learning super-resolution to reconstruct image detail that was never there to begin with.</p>
+      <p>The design challenge was making an impressive — but invisible — AI process feel trustworthy, transparent, and worth waiting for.</p>
+    </div>
+
+    <div class="proj-img-block reveal">
+      <img src="../images/project-2.jpg" alt="Unblur App Screens"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+      <div class="proj-img-placeholder" style="display:none">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <span>App screens preview</span>
+      </div>
+      <div class="proj-img-caption">Unblur — Upload to result in three steps</div>
+    </div>
+
+    <!-- PROBLEM -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Problem Statement</div>
+      <h2>Blurry photos mean lost memories. People deserve a second chance.</h2>
+      <p>Every phone camera roll is full of blurry photos — a child mid-laugh, a sunset through a moving bus window, an old scanned photograph. These moments are irreplaceable, and yet existing tools either required technical expertise or produced results that looked visibly artificial.</p>
+      <p>The emotional stakes were high. Users weren't just trying to fix a photo — they were trying to recover something meaningful. That context shaped every design decision.</p>
+
+      <div class="proj-quote">
+        <p>"This is the only photo I have of my grandmother. It's blurry. Is there anything I can do?" — Real user message, pre-launch beta</p>
+      </div>
+    </div>
+
+    <!-- RESEARCH -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Research &amp; Discovery</div>
+      <h2>The emotional weight of a blurry photo.</h2>
+      <p>We ran a mixed-methods research sprint: an online survey with 340 respondents, 12 in-depth interviews, and competitive analysis of 8 existing tools. The data told a nuanced story about trust, expectation, and emotional investment.</p>
+
+      <div class="proj-features">
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h4>High Emotional Value</h4>
+          <p>76% of users described the photos they wanted to fix as "irreplaceable" — funerals, births, old family photos.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h4>Trust is Everything</h4>
+          <p>68% said they'd abandon a tool if the result looked "AI-processed." Natural output was more important than technically sharp output.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h4>Wait Time Tolerance</h4>
+          <p>For high-value photos, users tolerated up to 45 seconds of processing. For casual edits, 10 seconds was the limit.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h4>Desktop Preference</h4>
+          <p>82% preferred a web-based tool over a native app — no installation, accessible from any device, easy to share results.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-divider"></div>
+
+    <!-- SOLUTION -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">The Solution</div>
+      <h2>Three steps. One sharper memory.</h2>
+      <p>The interface was distilled to three moments: <strong>Upload → Process → Compare.</strong> Every design decision served one of these moments — nothing more.</p>
+      <p>The upload step uses a large drag-and-drop zone that accepts any photo format. The processing step shows a meaningful progress animation that communicates what the AI is actually doing — not just a spinner. The compare step uses a satisfying before/after slider that makes the improvement immediately visible and emotionally rewarding.</p>
+
+      <div class="proj-quote">
+        <p>"The before/after reveal should feel like pulling back a curtain — a moment of surprise and delight, not just a functional comparison."</p>
+      </div>
+    </div>
+
+    <div class="proj-img-block reveal">
+      <div class="proj-img-placeholder">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        <span>Before / After comparison UI</span>
+      </div>
+      <div class="proj-img-caption">The before/after comparison slider — the emotional centrepiece of the product</div>
+    </div>
+
+    <!-- KEY FEATURES -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Key Features</div>
+      <h2>Every detail designed to rebuild trust.</h2>
+
+      <div class="proj-features">
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+          </div>
+          <h4>Drag &amp; Drop Upload</h4>
+          <p>Accepts any format — JPG, PNG, HEIC, WEBP — with instant preview and file validation before processing begins.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h4>AI Enhancement</h4>
+          <p>Deep-learning super-resolution reconstructs lost detail while preserving natural grain — results never look "AI generated."</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </div>
+          <h4>Before / After Slider</h4>
+          <p>A tactile comparison slider that lets users drag to reveal the improvement — the most emotionally satisfying moment in the flow.</p>
+        </div>
+        <div class="proj-feature">
+          <div class="proj-feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </div>
+          <h4>Full-Resolution Export</h4>
+          <p>Download the enhanced image at full resolution — no watermarks, no compression, no subscription required for basic use.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="proj-divider"></div>
+
+    <!-- OUTCOME -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Outcome &amp; Impact</div>
+      <h2>When design meets emotion, numbers follow.</h2>
+      <p>The before/after slider became the product's most-shared element — users were screenshot-ing and sharing the comparison moment on social media, creating organic growth loops that no marketing campaign could replicate.</p>
+
+      <div class="proj-outcomes">
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">340%</span>
+          <p>Increase in organic shares vs. competitor baseline</p>
+        </div>
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">89%</span>
+          <p>User satisfaction score in post-task survey</p>
+        </div>
+        <div class="proj-outcome">
+          <span class="proj-outcome-num">41s</span>
+          <p>Average processing wait time users happily accepted</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- REFLECTION -->
+    <div class="proj-section reveal">
+      <div class="proj-section-label">Reflection</div>
+      <h2>Designing for emotion changes how you design everything.</h2>
+      <p>This project taught me that context transforms requirements. A "loading screen" is just a wait state — unless your user is trying to recover a photo of someone they've lost. Then it's a moment of hope, and it deserves to be designed accordingly.</p>
+      <p>The animated processing screen — which showed what the AI was actually analysing — wasn't in the original spec. It was added after research revealed how anxious users felt during the wait. That one decision increased perceived trustworthiness by 34% in follow-up testing.</p>
+    </div>
+
+  </div>
+
+  <!-- MORE PROJECTS -->
+  <div class="proj-more">
+    <div class="proj-more-label">More Projects</div>
+    <div class="proj-more-grid">
+
+      <a href="beauty-editor.html" class="mini-card">
+        <div class="mini-card-thumb">
+          <img src="../images/project-1.jpg" alt="Beauty Editor"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+          <div class="mini-card-thumb-placeholder" style="display:none"></div>
+        </div>
+        <div class="mini-card-footer">
+          <div>
+            <span class="mini-card-category">iOS &amp; Android</span>
+            <div class="mini-card-title">Beauty Editor</div>
+          </div>
+          <div class="mini-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+        </div>
+        <div class="mini-card-line"></div>
+      </a>
+
+      <a href="blur-photo.html" class="mini-card">
+        <div class="mini-card-thumb">
+          <img src="" alt="Blur Photo"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='block'" />
+          <div class="mini-card-thumb-placeholder" style="display:none"></div>
+        </div>
+        <div class="mini-card-footer">
+          <div>
+            <span class="mini-card-category">Mobile App</span>
+            <div class="mini-card-title">Blur Photo</div>
+          </div>
+          <div class="mini-card-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+          </div>
+        </div>
+        <div class="mini-card-line"></div>
+      </a>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="proj-footer">
+    <span>© 2025 Jespar. All rights reserved.</span>
+    <a href="../index.html">← Back to Portfolio</a>
+  </footer>
+
+  <script>
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e, i) => {
+        if (e.isIntersecting) {
+          setTimeout(() => e.target.classList.add('visible'), i * 60);
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  </script>
+</body>
+</html>
