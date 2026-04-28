@@ -33,7 +33,7 @@ export default function Navbar() {
           <li><a href="#contact"  className="nav-link" data-text="Contact">Contact</a></li>
         </ul>
 
-        <a href="/Ahmed-Jespar_CV.pdf" target="_blank" rel="noopener noreferrer" className="nav-cta magnetic">See Resume</a>
+        <a href="https://drive.google.com/file/d/1cpOX9WH743HJGaW2t2hS1-XERnwNHmwZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="nav-cta magnetic">See Resume</a>
 
         <button
           className={`hamburger${menuOpen ? ' active' : ''}`}
