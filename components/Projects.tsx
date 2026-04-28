@@ -11,7 +11,7 @@ const projects = [
     icon: <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />,
   },
   {
-    href: '/projects/blur-photo.html',
+    href: 'https://www.behance.net/gallery/248395659/Retouch-AI-Object-Remover',
     img: '/images/project-retouch.jpg',
     alt: 'Retouch',
     category: 'Mobile App',
@@ -20,7 +20,7 @@ const projects = [
     icon: <><circle cx="12" cy="12" r="3" /><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" /></>,
   },
   {
-    href: '/projects/unblur.html',
+    href: 'https://www.behance.net/portfolio/editor?project_id=248397001',
     img: '/images/project-dailywin.jpg',
     alt: 'dailyWin',
     category: 'Personal Project',
