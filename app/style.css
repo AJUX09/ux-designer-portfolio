@@ -681,7 +681,7 @@ ul { list-style: none; }
 .work-history-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0;
 }
 
 .work-history-item {
