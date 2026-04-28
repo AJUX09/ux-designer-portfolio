@@ -20,7 +20,7 @@ const projects = [
     icon: <><circle cx="12" cy="12" r="3" /><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" /></>,
   },
   {
-    href: 'https://www.behance.net/portfolio/editor?project_id=248397001',
+    href: 'https://www.behance.net/gallery/248397001/dailyWin-Habit-Tracker-App',
     img: '/images/project-dailywin.jpg',
     alt: 'dailyWin',
     category: 'Personal Project',
