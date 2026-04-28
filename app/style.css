@@ -667,6 +667,80 @@ ul { list-style: none; }
   background: rgba(200,255,62,0.05);
 }
 
+/* Work History */
+.work-history { margin-top: 36px; }
+
+.work-history-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+  margin-bottom: 12px;
+}
+
+.work-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.work-history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 18px;
+  transition: border-color 0.3s;
+}
+.work-history-item:hover { border-color: rgba(255,255,255,0.15); }
+
+.work-history-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.work-history-company {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
+}
+
+.work-history-role {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.work-history-period {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.work-history-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color 0.3s, color 0.3s, background 0.3s;
+}
+.work-history-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(200,255,62,0.05);
+}
+
 /* About image */
 .about-img-container {
   position: relative;

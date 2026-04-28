@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import WorkHistory from './WorkHistory'
 
 export default function About() {
   return (
@@ -18,6 +19,7 @@ export default function About() {
                 <div key={skill} className="skill-pill">{skill}</div>
               ))}
             </div>
+            <WorkHistory />
           </div>
 
           <div className="about-right">
