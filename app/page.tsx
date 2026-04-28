@@ -7,7 +7,6 @@ import Tools from '@/components/Tools'
 import Projects from '@/components/Projects'
 import AppMarket from '@/components/AppMarket'
 import Contact from '@/components/Contact'
-import { HeroFuturistic } from '@/components/ui/hero-futuristic'
 import Footer from '@/components/Footer'
 import ClientEffects from '@/components/ClientEffects'
 import TubesCursor from '@/components/ui/tubes-cursor'
@@ -27,7 +26,6 @@ export default function Home() {
       <Tools />
       <Projects />
       <AppMarket />
-      <HeroFuturistic />
       <Contact />
       <Footer />
 
